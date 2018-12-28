@@ -15,7 +15,7 @@ function removeTaskById(state, id) {
     return state.filter(task => task.id !== id);
 }
 
-export const reducer = (state = [], action) => {
+export default function reducer(state = [], action) {
     switch(action.type) {
         case ADD_TASK:
             return [
