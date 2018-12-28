@@ -6,7 +6,7 @@ import {
 
 export const addTask = task => {
     return {
-        type: ADD_TASK
+        type: ADD_TASK,
         payload: task
     };
 };
