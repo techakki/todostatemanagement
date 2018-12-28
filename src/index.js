@@ -5,11 +5,13 @@ import {
     removeAllTasks
 } from "./state_management/actions";
 
-module.export = {
-    reducer: reducer,
-    actions: {
-        addTask,
-        removeTask,
-        removeAllTasks
-    }
+const actions = {
+    addTask,
+    removeTask,
+    removeAllTasks
+};
+
+export {
+    reducer,
+    actions
 };
