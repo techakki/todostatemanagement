@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/techakki/todostatemanagement/issues"
   },
-  "homepage": "https://github.com/techakki/todostatemanagement#readme"
+  "homepage": "https://github.com/techakki/todostatemanagement#readme",
+  "dependencies": {
+    "redux": "^4.0.1"
+  }
 }
