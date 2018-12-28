@@ -1,0 +1,25 @@
+{
+  "name": "todostatemanagement",
+  "version": "1.0.0",
+  "description": "State Management Application based on redux",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techakki/todostatemanagement.git"
+  },
+  "keywords": [
+    "todo",
+    "todoapp",
+    "redux",
+    "state"
+  ],
+  "author": "Akshay Sharma <akshaykmr869@gmail.com> (https://github.com/techakki)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/techakki/todostatemanagement/issues"
+  },
+  "homepage": "https://github.com/techakki/todostatemanagement#readme"
+}
