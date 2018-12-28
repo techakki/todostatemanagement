@@ -4,7 +4,9 @@
   "description": "State Management Application based on redux",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prebuild": "rimraf dist",
+    "build": "babel --out-dir dist src"
   },
   "repository": {
     "type": "git",
@@ -24,6 +26,7 @@
   "homepage": "https://github.com/techakki/todostatemanagement#readme",
   "dependencies": {},
   "devDependencies": {
-    "babel-cli": "^6.26.0"
+    "babel-cli": "^6.26.0",
+    "rimraf": "^2.6.2"
   }
 }
