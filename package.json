@@ -22,5 +22,8 @@
     "url": "https://github.com/techakki/todostatemanagement/issues"
   },
   "homepage": "https://github.com/techakki/todostatemanagement#readme",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }
