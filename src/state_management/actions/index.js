@@ -23,3 +23,9 @@ export const removeAllTasks = () => {
         type: REMOVE_ALL
     }
 };
+
+export default {
+    addTask,
+    removeTask,
+    removeAllTasks
+};
